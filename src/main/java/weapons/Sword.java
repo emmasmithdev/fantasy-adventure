@@ -14,6 +14,6 @@ public class Sword extends Weapon {
     }
 
     public String fight(){
-        return "I cut you with my " + getLength() + "sword!";
+        return "Slice with a " + getLength() + "sword!";
     }
 }
