@@ -1,4 +1,6 @@
-import Behaviours.IFight;
+package players;
+
+import behaviours.IFight;
 
 public class Dwarf extends Player {
 

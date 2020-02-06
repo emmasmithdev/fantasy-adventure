@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c626268-bcf8-4c6c-a879-603046c9df51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IFight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dwarf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/IFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IFight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/IProtect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IProtect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

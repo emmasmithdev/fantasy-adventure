@@ -1,4 +1,4 @@
-package Behaviours;
+package behaviours;
 
 public interface IProtect {
 

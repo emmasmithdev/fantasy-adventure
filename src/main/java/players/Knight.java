@@ -1,5 +1,7 @@
-import Behaviours.IFight;
-import Behaviours.IProtect;
+package players;
+
+import behaviours.IFight;
+import behaviours.IProtect;
 
 public class Knight extends Player {
 
