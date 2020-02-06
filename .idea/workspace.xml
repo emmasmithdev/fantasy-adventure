@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c626268-bcf8-4c6c-a879-603046c9df51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/defence/Armour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/defence/Defence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/defence/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weapons/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weapons/Axe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weapons/Club.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weapons/Club.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weapons/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weapons/Sword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.KnightTest">
     <configuration name="DwarfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,8 +77,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnightTest" />
         <item itemvalue="JUnit.DwarfTest" />
       </list>
     </recent_temporary>

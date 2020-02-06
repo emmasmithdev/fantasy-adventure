@@ -29,4 +29,12 @@ public class Knight extends Player {
     public void setDefence(IProtect defence) {
         this.defence = defence;
     }
+
+    public String fight(){
+        return this.weapon.fight();
+    }
+
+    public String defend(){
+        return this.defence.protect();
+    }
 }

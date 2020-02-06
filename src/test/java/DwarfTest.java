@@ -36,13 +36,13 @@ public class DwarfTest {
 
     @Test
     public void canFightWithClub(){
-        assertEquals("Smash with a 10 pound club!", dwarf.fight());
+        assertEquals("Smash with a 10 pound club! Receive 3 damage.", dwarf.fight());
     }
 
     @Test
     public void canFightWithAxe(){
         dwarf.setWeapon(axe);
-        assertEquals("Chop with a force 5 axe!", dwarf.fight());
+        assertEquals("Chop with a force 5 axe! Receive 3 damage.", dwarf.fight());
     }
 
     @Test

@@ -21,4 +21,14 @@ public abstract class Player {
     public void setHealth(int health) {
         this.health = health;
     }
+
+    public void loseHealth(int amount){
+        int health = getHealth();
+        this.setHealth(health - amount);
+    }
+
+    public void addHealth(int amount){
+        int health = getHealth();
+        this.setHealth(health + amount);
+    }
 }

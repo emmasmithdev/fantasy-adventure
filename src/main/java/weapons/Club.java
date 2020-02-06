@@ -14,6 +14,6 @@ public class Club extends Weapon {
     }
 
     public String fight(){
-        return "Smash with a " + getWeight() + " pound club!";
+        return "Smash with a " + getWeight() + " pound club! Receive " + getDamage() + " damage.";
     }
 }

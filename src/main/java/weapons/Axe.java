@@ -14,6 +14,6 @@ public class Axe extends Weapon {
     }
 
     public String fight(){
-        return "Chop with a force " + getForce() + " axe!";
+        return "Chop with a force " + getForce() + " axe! Receive " + getDamage() + " damage.";
     }
 }
