@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c626268-bcf8-4c6c-a879-603046c9df51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/defence/Armour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/defence/Defence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/defence/Shield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISpell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mythicalCreatures/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mythicalCreatures/MythicalCreature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mythicalCreatures/Ogre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mythicalCreatures/Unicorn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spells/AttackSpell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spells/HealingSpell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spells/Spell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weapons/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weapons/Axe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weapons/Club.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weapons/Club.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weapons/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weapons/Sword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +48,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Ignore Files Support" />
   </component>
   <component name="RunDashboard">
