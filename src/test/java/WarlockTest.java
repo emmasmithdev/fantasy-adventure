@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import players.Warlock;
 import spells.AttackSpell;
-import spells.Spell;
+import spells.InformationSpell;
 
 import static org.junit.Assert.assertEquals;
 
@@ -13,6 +13,7 @@ public class WarlockTest {
 
     Warlock warlock;
     AttackSpell spell;
+    InformationSpell infoSpell;
     Ogre ogre;
     Unicorn unicorn;
 
@@ -20,6 +21,7 @@ public class WarlockTest {
     public void before(){
         ogre = new Ogre("Shrek", 7, 3);
         unicorn = new Unicorn("Beauty", 10, 7);
+        infoSpell = new InformationSpell("Tell All", "Your opponent tells you vital information.");
         spell = new AttackSpell("Fireball", "Opponent takes a flaming ball to the stomach.", 6);
         warlock = new Warlock("Willy", spell, ogre);
     }
@@ -59,6 +61,12 @@ public class WarlockTest {
     @Test
     public void canCastAttackSpell(){
         assertEquals("Fireball spell cast. Opponent takes a flaming ball to the stomach. You receive 6 damage.", warlock.castSpell());
+    }
+
+    @Test
+    public void canCastInformationSpell(){
+        warlock.setSpell(infoSpell);
+        assertEquals("Tell All spell cast. Your opponent tells you vital information.", warlock.castSpell());
     }
 
     @Test
