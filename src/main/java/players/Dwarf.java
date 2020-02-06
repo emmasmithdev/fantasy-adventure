@@ -22,4 +22,14 @@ public class Dwarf extends Player {
     public String fight(){
         return this.weapon.fight();
     }
+
+    public void loseHealth(int amount){
+        int health = getHealth();
+        this.setHealth(health - amount);
+    }
+
+    public void addHealth(int amount){
+        int health = getHealth();
+        this.setHealth(health + amount);
+    }
 }
