@@ -15,7 +15,7 @@ public class ClericTest {
         healingSpell = new HealingSpell("Healing Herbs", "Mends broken bones.", 7);
         cleric = new Cleric("Brother John", healingSpell);
     }
-    
+
     @Test
     public void hasName(){
         assertEquals("Brother John", cleric.getName());

@@ -1,3 +1,4 @@
+import Animals.Velociraptor;
 import defence.Armour;
 import defence.Shield;
 import org.junit.Before;
@@ -15,6 +16,7 @@ public class KnightTest {
     Axe axe;
     Shield shield;
     Armour armour;
+    Velociraptor raptor;
 
     @Before
     public void before(){
@@ -22,6 +24,7 @@ public class KnightTest {
         shield = new Shield(2, "large");
         axe = new Axe(3, 5);
         sword = new Sword(5, "long");
+        raptor = new Velociraptor("Chris", 30);
         knight = new Knight("Derek", sword, shield);
     }
 
@@ -77,6 +80,12 @@ public class KnightTest {
     public void canDefendWithArmour(){
         knight.setDefence(armour);
         assertEquals("Protect with iron armour! Reduce damage by 3.", knight.defend());
+    }
+
+    @Test
+    public void canBeProtectedByVelociraptor(){
+        knight.setDefence(raptor);
+        assertEquals("Protected by Chris. Opponent runs away in fear.", knight.defend());
     }
 
 }
